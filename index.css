@@ -1,40 +1,64 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     font-size: 18px;
     font-family:'Kumbh Sans', sans-serif;
     background-color: #00B6C7;
     text-align: center;
-
+    background-image: url("images/bg-pattern-top.svg") -100px -200px;
+    background-image: url("images/bg-pattern-bottom.png") auto auto -200px -100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
 }
 
 img {
     border-radius: 50px;
+    margin-top: 30%;
+    border: 5px solid white
 }
 
 .container {
     margin: 100px auto;
-    width: 50%;
-    border: 3px solid;
+    width: 40%;
     padding: 10px;
     overflow: hidden;
     border-radius: 15px;
+    background:url("images/bg-pattern-card.png") top no-repeat, white bottom;
+    background-size: contain;
+
 }
 
-#maininfo {
+
+#name {
     font-weight: 700;
+    margin-top: 15px;
 }
 
 #info {
-    font-weight: 400;
+    font-weight: 700;
+}
+
+#what {
+    font-weight: 300;
+    font-size: 10px;
+    word-spacing: 60px;
 }
 
 #info p {
-    float
-    padding: 16px;
+    word-spacing: 20px;
     background-color: white;
     margin: 0px;
 }
+
+#numbers {
+    font-weight: 700;
+}
+
+
+
+
 
 
